@@ -11,7 +11,7 @@
 ~~~
 pip install -r requirements.txt
 cp .env.example .env      # 在 .env 中填入 DEEPSEEK_API_KEY
-streamlit run streamlit_app.py
+streamlit run app.py
 ~~~
 
 ## 环境变量

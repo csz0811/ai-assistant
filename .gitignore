@@ -16,4 +16,3 @@ outputs/
 # ===== 旧草稿（非部署文件）=====
 _test_jsonmode.py
 day3_demo.py
-app.py
