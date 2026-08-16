@@ -1,0 +1,19 @@
+# ===== 环境 / 依赖 =====
+venv/
+.idea/
+__pycache__/
+*.pyc
+
+# ===== 密钥（绝对不能上传！）=====
+.env
+
+# ===== 系统文件 =====
+.DS_Store
+
+# ===== 运行时产物 =====
+outputs/
+
+# ===== 旧草稿（非部署文件）=====
+_test_jsonmode.py
+day3_demo.py
+app.py
