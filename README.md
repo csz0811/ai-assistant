@@ -1,3 +1,15 @@
+---
+title: AI Content Generator
+emoji: ✍️
+colorFrom: blue
+colorTo: indigo
+sdk: streamlit
+sdk_version: 1.32.0
+app_file: app.py
+pinned: false
+license: mit
+---
+
 # AI 内容生成器（Streamlit）
 
 基于 DeepSeek 的 AI 内容生成 Web 应用，支持多类型文案生成 + Markdown 实时预览与导出。
@@ -18,6 +30,6 @@ streamlit run app.py
 - `DEEPSEEK_API_KEY`：DeepSeek API Key（部署时在平台 Secrets 中配置同名变量）
 
 ## 文件结构
-- `streamlit_app.py`：Streamlit 界面入口
+- `app.py`：Streamlit 界面入口
 - `content_generator.py`：内容生成核心逻辑（调用 DeepSeek）
 - `requirements.txt`：依赖清单
