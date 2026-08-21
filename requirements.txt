@@ -5,3 +5,12 @@ chromadb==1.5.9
 pymupdf==1.28.2
 reportlab==5.0.0
 
+# === W11-D2 bge 中文 embedding 兼容组合 (已实测跑通 2026-08-22) ===
+# 阿里源仅含 torch<=2.2.2, 故锁定 2.2.2 + 老版 st/transformers
+# 勿单独升级 sentence-transformers 到 6.x (要求 torch>=2.5, 必冲突)
+# 复现: pip install -r requirements.txt (需先 activate venv + SSL_CERT_FILE)
+torch==2.2.2
+numpy==1.26.4
+sentence-transformers==2.7.0
+transformers==4.44.2
+
